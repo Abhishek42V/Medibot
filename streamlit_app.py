@@ -46,7 +46,7 @@ else:
                 {"role": m["role"], "content": m["content"]}
                 for m in st.session_state.messages
             ],
-            max_tokens=150;
+            max_tokens=150,
             stream=True,
         )
 
